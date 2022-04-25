@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="format.css">
+        <script src="validate_signup.js"></script>
+    </head>
+    <body>
+        <h1>Sign Up Page</h1>
+        <br>
+        <form name= "signup" onsubmit="return checkEmpty(), checkPass(), passLen(), emailLen(), userLen(),showUser()">
+            <label for="email">Email:</label><br>
+            <input type="email" name="email"><br><br>
+            <label for="user">Username:</label><br>
+            <input type="text" name="user"><br><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" name="pass"><br><br>
+            <label for="Confirm">Confirm Password:</label><br>
+            <input type="password" name="confirm"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p><a href="http://www2.cs.uregina.ca/~gds412/">Back to my Homepage.</a></p>
+    </body>
+</html>
